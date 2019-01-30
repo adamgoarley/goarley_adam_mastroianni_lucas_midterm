@@ -1,3 +1,170 @@
 @charset "utf-8";
 /* CSS Document */
 
+.hidden
+{
+  display: none;
+}
+
+#container
+{
+  padding-left: 10px;
+	padding-right: 10px;
+	margin: 0 auto;
+}
+
+#mainHeader
+{
+  display: flex;
+	flex-direction: row;
+}
+
+#logo
+{
+  height: 100px;
+	width: 250px;
+	background-color: #f0aeae;
+  margin-top: 10px;
+}
+
+#navMain
+{
+  width: 600px;
+	height: 40px;
+	background-color: #23550B;
+  margin-left: 600px;
+  margin-top: 50px;
+}
+
+#navBut
+{
+  width: 130px;
+	height: 40px;
+  background-color: red;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+#heroImages
+{
+  /*width: 960px;*/
+  height: 450px;
+  background-color: green;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+
+#whoWeAre
+{
+  /*width: 960px;*/
+  height: 350px;
+  background-color: pink;
+  opacity: 40%;
+}
+
+#whoWeAreTextH1
+{
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+#whoWeAreText
+{
+  padding-top: 90px;
+  text-align: center;
+}
+
+#whoWeAreBut
+{
+  height: 25px;
+  width: 85px;
+  border-radius: 10px;
+  background-color: green;
+  margin-top: 15px;
+  text-align: center;
+}
+
+#ourImpact
+{
+  /*width: 960px;*/
+  height: 400px;
+  background-color: blue;
+  opacity: ;
+  display: flex;
+}
+
+#ourImpact
+{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.Box1
+{
+  width: 400px;
+  height: 150px;
+  display: flex;
+  margin-right: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+.Bo x1 h1
+{
+  font-weight: 750;
+  font-size: 25px;
+  padding-bottom:
+  padding-left: 90px;
+}
+.Box 1 p
+{
+  font-size: 18px;
+  padding-bottom: px;
+  padding-top: 80px;
+}
+.Box1 button
+{
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: green;
+  margin-top: 15px;
+  text-align: center;
+  margin-top: 190px;
+  margin-right: 80px;
+}
+
+.Box2
+{
+  width: 400px;
+  height: 150px;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
+.Box3
+{
+  width: 400px;
+  height: 150px;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
+
+
+
+
+
+
+#footerMain
+{
+  height: 250px;
+  background-color: red;
+  opacity: 0.5;
+}
