@@ -164,7 +164,22 @@
 
 #footerMain
 {
-  height: 250px;
+  height: 150px;
   background-color: red;
   opacity: 0.5;
+}
+
+#footerLogo
+{
+  height: 100px;
+	width: 250px;
+  color: blue;
+}
+
+
+.footerForm
+{
+  padding-top: 50px;
+  padding-right: 25px;
+  float: right;
 }
