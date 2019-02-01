@@ -6,6 +6,17 @@
   display: none;
 }
 
+p
+{
+  font-family: 'Averia Serif Libre', cursive;
+}
+h1
+{
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
 #container
 {
   padding-left: 10px;
@@ -85,78 +96,116 @@
   text-align: center;
 }
 
+/*Section #3*/
 #ourImpact
 {
-  /*width: 960px;*/
   height: 400px;
-  background-color: blue;
+  background-color: #00a7e1;
   opacity: ;
-  display: flex;
-}
-
-#ourImpact
-{
   display: flex;
   justify-content: center;
   justify-content: space-between;
 }
-
+/*Vertical Lines*/
+.line1
+{
+  border-left: 2px solid black;
+  height: 250px;
+  opacity: 0.08;
+  margin-top: 70px;
+}
+.line2
+{
+  border-left: 2px solid black;
+  height: 250px;
+  opacity: 0.08;
+  margin-top: 70px;
+}
+/*Boxes*/
 .Box1
 {
   width: 400px;
   height: 150px;
-  display: flex;
   margin-right: 50px;
   margin: auto;
-  text-align: center;
 }
 
-.Bo x1 h1
+.Box1 h1
 {
-  font-weight: 750;
-  font-size: 25px;
-  padding-bottom:
-  padding-left: 90px;
+  font-size: 30px;
+  padding-bottom: 20px;
+  color: #fff;
 }
-.Box 1 p
+.Box1 p
 {
   font-size: 18px;
-  padding-bottom: px;
-  padding-top: 80px;
+  color: #fff;
+  font-family: 'Averia Serif Libre', cursive;
 }
+
 .Box1 button
 {
   height: 25px;
   width: 100px;
   border-radius: 10px;
-  background-color: green;
-  margin-top: 15px;
-  text-align: center;
-  margin-top: 190px;
-  margin-right: 80px;
+  background-color: #fff;
+  opacity: 0.95;
+  margin-top: 40px;
 }
 
 .Box2
 {
   width: 400px;
   height: 150px;
-  background-color: red;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   margin: auto;
 }
+.Box2 h1
+{
+  font-size: 30px;
+  padding-bottom: 20px;
+  color: #fff;
+}
+.Box2 p
+{
+  font-size: 18px;
+  color: #fff;
+}
+.Box2 button
+{
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #fff;
+  opacity: 0.95;
+  margin-top: 40px;
+}
+
 .Box3
 {
   width: 400px;
   height: 150px;
-  background-color: red;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   margin: auto;
 }
-
+.Box3 h1
+{
+  font-size: 30px;
+  padding-bottom: 20px;
+  color: #fff;
+}
+.Box3 p
+{
+  font-size: 18px;
+  color: #fff;
+}
+.Box3 button
+{
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #fff;
+  opacity: 0.95;
+  margin-top: 40px;
+}
 
 
 
