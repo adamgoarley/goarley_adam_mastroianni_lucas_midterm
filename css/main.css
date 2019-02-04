@@ -50,6 +50,7 @@ body
 {
   margin-left: 20px;
   margin-right: 20px;
+  margin-top: 10px;
 }
 
 #navMainLeft
@@ -59,7 +60,7 @@ body
 	/*background-color: #3B945E;*/
   background-color: #687864;
   mar gin-left: 20px;
-  margin-top: 90px;
+  margin-top: 160px;
 }
 
 #navMainLeft
@@ -101,7 +102,7 @@ body
   background-color: #687864;
   margi n-left: 20px;
   margi n-right: -90px;
-  margin-top: 90px;
+  margin-top: 160px;
 }
 
 #navMainRight
@@ -223,17 +224,23 @@ body
 
 #whoWeAreBut
 {
-  height: 35px;
-  width: 95px;
+  height: 40px;
+  width: 230px;
   background-color: #687864;
   margin-top: 15px;
   text-align: center;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #fff;
 }
+
 
 #whoWeAreBut:hover
 {
-  height: 40px;
-  width: 100px;
+  height: 60px;
+  width: 300px;
 }
 
 
@@ -376,9 +383,14 @@ body
 
 #footerLogo
 {
-  height: 100px;
-	width: 250px;
-  color: blue;
+  height: 120px;
+	width: 120px;
+  -webkit-filter: grayscale(1); /* Webkit */
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* W3C */
+  float: left;
+  margin-left: 50px;
+  margin-top: 25px;
 }
 
 #footerNav
@@ -519,4 +531,145 @@ body
   margin-top: 10px;
   margin-bottom: 10px;
   color: white;
+}
+
+/*EVENTS PAGE*/
+
+#heroTextEvents
+{
+  height: 450px;
+  margin-top: 20px;
+}
+
+#heroTextEvents h1
+{
+  font-size: 100px;
+  padding-bottom: 10px;
+  color: black;
+  margin-top: 50px;
+}
+
+#imageEvent1
+{
+  width: 650px;
+  height: 450px;
+  background-color: gray;
+  padding-right: 600px;
+}
+
+#event1
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: -250px;
+}
+
+#textEvent1 h2
+{
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  float: left;
+  padding-left: 20px;
+  color: #5085A5;
+}
+
+#textEvent1 p
+{
+  padding-top: 80px;
+  padding-left: 15px;
+}
+
+#imageEvent2
+{
+  width: 650px;
+  height: 450px;
+  background-color: gray;
+  padding-left: 600px;
+}
+
+#event2
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+#textEvent2 h2
+{
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  float: left;
+  padding-left: 20px;
+  color: #5085A5;
+}
+
+#textEvent2 p
+{
+  padding-top: 80px;
+  padding-left: 15px;
+}
+
+/*event 3-4*/
+#imageEvent3
+{
+  width: 650px;
+  height: 450px;
+  background-color: gray;
+  padding-right: 600px;
+}
+
+#event3
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+#textEvent3 h2
+{
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  float: left;
+  padding-left: 20px;
+  color: #5085A5;
+}
+
+#textEvent3 p
+{
+  padding-top: 80px;
+  padding-left: 15px;
+}
+
+#imageEvent4
+{
+  width: 650px;
+  height: 450px;
+  background-color: gray;
+  padding-left: 600px;
+}
+
+#event4
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+#textEvent4 h2
+{
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  float: left;
+  padding-left: 20px;
+  color: #5085A5;
+}
+
+#textEvent4 p
+{
+  padding-top: 80px;
+  padding-left: 15px;
 }
