@@ -17,6 +17,12 @@ h1
   font-weight: 800;
   letter-spacing: 2px;
 }
+h4
+{
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
 
 body
 {
@@ -225,9 +231,8 @@ body
 /*Section #3*/
 #ourImpact
 {
-  height: 400px;
+  height: 450px;
   background-color: #6e8b6e;
-  opacity: ;
   display: flex;
   justify-content: center;
   justify-content: space-between;
@@ -238,14 +243,14 @@ body
   border-left: 2px solid black;
   height: 250px;
   opacity: 0.08;
-  margin-top: 70px;
+  margin-top: 100px;
 }
 .line2
 {
   border-left: 2px solid black;
   height: 250px;
   opacity: 0.08;
-  margin-top: 70px;
+  margin-top: 100px;
 }
 .line3
 {
@@ -258,14 +263,20 @@ body
 /*Boxes*/
 #river_icon
 {
-  padding-bottom: 20px;
-  margin-top: -50px;
+  padding-bottom: 40px;
+  margin-top: -80px;
 }
-
 #fish_icon
 {
-  padding-bottom: 20px;
-  margin-top: -50px;
+  padding-bottom: 10px;
+  margin-top: -80px;
+}
+#hook_icon
+{
+  padding-bottom: 40px;
+  margin-top: -80px;
+  height: 70px;
+  width: 70px;
 }
 
 .Box1
@@ -279,9 +290,10 @@ body
 .Box1 h1
 {
   font-size: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 35px;
   color: #fff;
 }
+
 .Box1 p
 {
   font-size: 18px;
@@ -294,6 +306,7 @@ body
   height: 25px;
   width: 100px;
   border-radius: 10px;
+  font-size: 14px;
   font-family: 'Averia Serif Libre', cursive;
   color: #fff;
   background-color: #687864;
@@ -313,6 +326,12 @@ body
   padding-bottom: 20px;
   color: #fff;
 }
+.Box2 h4
+{
+  font-size: 30px;
+  padding-bottom: 0px;
+  color: #fff;
+}
 .Box2 p
 {
   font-size: 18px;
@@ -323,6 +342,7 @@ body
   height: 25px;
   width: 100px;
   border-radius: 10px;
+  font-size: 14px;
   font-family: 'Averia Serif Libre', cursive;
   color: #fff;
   background-color: #687864;
@@ -351,6 +371,7 @@ body
   height: 25px;
   width: 100px;
   border-radius: 10px;
+  font-size: 14px;
   font-family: 'Averia Serif Libre', cursive;
   color: #fff;
   background-color: #687864;
