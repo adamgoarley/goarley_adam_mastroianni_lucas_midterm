@@ -36,16 +36,6 @@ body
   justify-content: center;
 }
 
-# logo
-{
-  height: 182px;
-	width: 201px;
-	background-color: #f0aeae;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
 #logo_middle
 {
   margin-top: 20px;
@@ -166,7 +156,7 @@ body
   text-decoration: none;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to left, #53652b, #53652b 50%, #fff 50%);
+  background-image: linear-gradient(to right, #53652b, #53652b 50%, #fff 50%);
 	background-size: 200% 100%;
 	background-position: 100%;
 }
@@ -197,7 +187,7 @@ body
   font-weight: 800;
   font-size: 65px;
   padding-bottom: 20px;
-  color: #31708E;
+  color: #53652b;
 }
 
 #whoWeAreText
@@ -236,7 +226,7 @@ body
 #ourImpact
 {
   height: 400px;
-  background-color: #5085A5;
+  background-color: #6e8b6e;
   opacity: ;
   display: flex;
   justify-content: center;
@@ -304,7 +294,9 @@ body
   height: 25px;
   width: 100px;
   border-radius: 10px;
-  background-color: #31708E;
+  font-family: 'Averia Serif Libre', cursive;
+  color: #fff;
+  background-color: #687864;
   opacity: 0.95;
   margin-top: 40px;
 }
@@ -331,8 +323,9 @@ body
   height: 25px;
   width: 100px;
   border-radius: 10px;
-  background-color: #31708E;
-  opacity: 0.95;
+  font-family: 'Averia Serif Libre', cursive;
+  color: #fff;
+  background-color: #687864;
   margin-top: 40px;
 }
 
@@ -358,7 +351,9 @@ body
   height: 25px;
   width: 100px;
   border-radius: 10px;
-  background-color: #31708E;
+  font-family: 'Averia Serif Libre', cursive;
+  color: #fff;
+  background-color: #687864;
   opacity: 0.95;
   margin-top: 40px;
 }
@@ -379,6 +374,7 @@ body
   float: left;
   margin-left: 50px;
   margin-top: 25px;
+  opacity: 0.75;
 }
 
 #footerNav
@@ -408,43 +404,62 @@ body
   font-family: 'Averia Serif Libre', cursive;
   font-size: 16px;
 }
+#footerNav a
+{
+  opacity: 0.5;
+  transition: 0.5s;
+}
+#footerNav a:hover
+{
+  opacity: 1;
+}
 
 .footerForm
 {
-  padding-top: 50px;
-  padding-right: 25px;
+  margin-top: 50px;
+  margin-right: 50px;
   float: right;
 }
 
 .footerForm p
 {
+  font-family: 'Averia Serif Libre', cursive;
   color: #fff;
   padding-bottom: 10px;
 }
 
 #footerFormBut
 {
-  margin-top: 10px;
+  margin-left: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 20px;
+  radius: 15px;
+  font-family: 'Averia Serif Libre', cursive;
+}
+.footerForm input
+{
+  height: 19px;
+  border: none;
 }
 
 /*ABOUT US PAGE*/
-
 #heroImages
 {
   height: 450px;
   background-color: ;
-  margin-top: 20px;
+  margin-top: 220px;
 }
 
 #heroText
 {
   font-size: 100px;
-  margin-top: -400px;
-  padding-bottom: 100px;
+  margin-top: -550px;
+  padding-bottom: 400px;
 }
 #us
 {
-  color: #5085A5;
+  color: #53652b;
 }
 
 /*Vertical Lines*/
@@ -522,159 +537,7 @@ body
 }
 
 /*EVENTS PAGE*/
-
-/*
-#heroTextEvents
-{
-  height: 450px;
-  margin-top: 20px;
-}
-
-#heroTextEvents h1
-{
-  font-size: 100px;
-  padding-bottom: 10px;
-  color: black;
-  margin-top: 50px;
-}
-
-#imageEvent1
-{
-  width: 650px;
-  height: 450px;
-  background-color: gray;
-  padding-right: 600px;
-}
-
-#event1
-{
-  display: flex;
-  flex-direction: row;
-  margin-top: -250px;
-}
-
-#textEvent1 h2
-{
-  font-family: 'Lato', sans-serif;
-  font-weight: 800;
-  font-size: 45px;
-  float: left;
-  padding-left: 20px;
-  color: #5085A5;
-}
-
-#textEvent1 p
-{
-  padding-top: 80px;
-  padding-left: 15px;
-}
-
-#imageEvent2
-{
-  width: 650px;
-  height: 450px;
-  background-color: gray;
-  padding-left: 600px;
-}
-
-#event2
-{
-  display: flex;
-  flex-direction: row;
-  margin-top: 15px;
-}
-
-#textEvent2 h2
-{
-  font-family: 'Lato', sans-serif;
-  font-weight: 800;
-  font-size: 45px;
-  float: left;
-  padding-left: 20px;
-  color: #5085A5;
-}
-
-#textEvent2 p
-{
-  padding-top: 80px;
-  padding-left: 15px;
-}
-
-*/
-
-/*event 3-4*/
-
-/*
-#imageEvent3
-{
-  width: 650px;
-  height: 450px;
-  background-color: gray;
-  padding-right: 600px;
-}
-
-#event3
-{
-  display: flex;
-  flex-direction: row;
-  margin-top: 15px;
-}
-
-#textEvent3 h2
-{
-  font-family: 'Lato', sans-serif;
-  font-weight: 800;
-  font-size: 45px;
-  float: left;
-  padding-left: 20px;
-  color: #5085A5;
-}
-
-#textEvent3 p
-{
-  padding-top: 80px;
-  padding-left: 15px;
-}
-
-#imageEvent4
-{
-  width: 650px;
-  height: 450px;
-  background-color: gray;
-  padding-left: 600px;
-}
-
-#event4
-{
-  display: flex;
-  flex-direction: row;
-  margin-top: 15px;
-}
-
-#textEvent4 h2
-{
-  font-family: 'Lato', sans-serif;
-  font-weight: 800;
-  font-size: 45px;
-  float: left;
-  padding-left: 20px;
-  color: #5085A5;
-}
-
-#textEvent4 p
-{
-  padding-top: 80px;
-  padding-left: 15px;
-}
-
-*/
-
-
-
-
-
 /*TIME LINE*/
-
 #heroTextEventsa
 {
   height: 200px;
@@ -686,7 +549,7 @@ body
   font-size: 100px;
   padding-bottom: 10px;
   color: black;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .lineTimeLine
@@ -750,7 +613,7 @@ body
   font-family: 'Lato', sans-serif;
   font-weight: 800;
   letter-spacing: 2px;
-  font-size: 20px
+  font-size: 20px;
 }
 #event2017
 {
@@ -787,10 +650,10 @@ body
   font-family: 'Lato', sans-serif;
   font-weight: 800;
   font-size: 45px;
-  color: #5085A5;
+  color: #53652b;
   float: right;
   margin-bottom: 10px;
-  margin-right: -190px;
+  margin-right: 50px;
 }
 
 #textEvent1a h3
@@ -798,9 +661,10 @@ body
   font-family: 'Lato', sans-serif;
   font-weight: 800;
   font-size: 20px;
-  color: #5085A5;
+  color: #53652b;
   float: right;
   margin-right: 50px;
+  margin-top: -20px;
 }
 
 #textEvent1a p
@@ -827,12 +691,11 @@ body
   opacity: 0.5;*/
 }
 
-#imag eEvent2a
+#im ageEvent2a
 {
-  width: 300px;
-  height: 150px;
-  background-color: gray;
-  margin-left: 730px;
+  width: 50px;
+  height: 50px;
+  background-color: blue;
 }
 
 #textEvent2a h2
@@ -840,7 +703,7 @@ body
   font-family: 'Lato', sans-serif;
   font-weight: 800;
   font-size: 45px;
-  color: #5085A5;
+  color: #53652b;
   float: left;
   margin-left: 50px;
 }
@@ -850,7 +713,7 @@ body
   font-family: 'Lato', sans-serif;
   font-weight: 800;
   font-size: 20px;
-  color: #5085A5;
+  color: #53652b;
   float: left;
   margin-left: 50px;
   margin-bottom: 8px;
@@ -858,10 +721,9 @@ body
 
 #textEvent2a p
 {
-  margin-top: 30px;
+  margin-top: 50px;
   margin-left: 40px;
   margin-right: 150px;
-  margin-bottom: -50px;
   justify-content: flex-start;
 }
 
@@ -874,7 +736,7 @@ body
   margin-right: 90px;
   /*background-color: gray;
   opacity: 0.5;*/
-  margin-top: 180px;
+  margin-top: 60px;
 }
 
 #ima geEvent3a
@@ -891,15 +753,25 @@ body
   font-family: 'Lato', sans-serif;
   font-weight: 800;
   font-size: 45px;
-  color: #5085A5;
+  color: #53652b;
   float: right;
   margin-bottom: 5px;
   margin-right: 50px;
 }
 
+#textEvent3a h3
+{
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: #53652b;
+  float: right;
+  margin-right: 50px;
+}
+
 #textEvent3a p
 {
-  margin-top: 30px;
+  margin-top: 50px;
   justify-content: flex-end;
   margin-left: 150px;
   margin-right: 50px;
@@ -918,12 +790,12 @@ body
   opacity: 0.5;*/
 }
 
-#imag eEvent4a
+#image Event4a
 {
-  width: 300px;
-  height: 150px;
-  background-color: gray;
-  margin-left: 730px;
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  margi n-left: 730px;
 }
 
 #textEvent4a h2
@@ -931,24 +803,48 @@ body
   font-family: 'Lato', sans-serif;
   font-weight: 800;
   font-size: 45px;
-  color: #5085A5;
+  color: #53652b;
   float: left;
-  margin-left: 50px;
+  margin-left: 40px;
+}
+
+#textEvent4a h3
+{
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: #53652b;
+  float: left;
+  margin-left: 40px;
 }
 
 #textEvent4a p
 {
-  margin-top: 30px;
+  margin-top: 50px;
   margin-left: 40px;
   margin-right: 150px;
   margin-bottom: 200px;
   justify-content: flex-start;
 }
 
+/*Project Page*/
 #projects
 {
   display: flex;
   flex-direction: row;
+}
+#traaProject
+{
+  height: 200px;
+  margin-top: 20px;
+}
+
+#traaProjectsHeading h1
+{
+  font-size: 100px;
+  padding-bottom: 10px;
+  color: black;
+  margin-top: 100px;
 }
 
 #boxes
@@ -956,7 +852,6 @@ body
   display: flex;
   flex-direction: row;
   margin: 20px;
-  margin-top: -100px;
 }
 
 #box1
@@ -975,12 +870,6 @@ body
   margin: 0 auto;
 }
 
-#projects h1
-{
-  font-family:'Lato', sans-serif; 
-  font-size: 25px;
-}
-
 #box3
 {
   height: 300px;
@@ -989,20 +878,15 @@ body
   margin-right: 30px;
 }
 
-#mapArea
-{
-  margin-left: 750px;
-  margin-top: -514px;
-}
-
+/*Links Page*/
 #link
 {
   color:black;
 }
-#links 
+#links
 {
-  font-size: 50px;
-  margin: 20px;
+  font-size: 100px;
+  margin-top: 100px;
   font-family: 'Lato', sans-serif;
   color:  #5085A5;
 }
@@ -1039,7 +923,7 @@ body
  font-size: 18px;
 }
 
-#content3 h3 
+#content3 h3
 {
   font-size: 30px;
   margin-bottom: 100px;
@@ -1059,7 +943,7 @@ body
   margin: 150px;
   margin-left: -8px;
 }
-#content4 h3 
+#content4 h3
 {
   text-align: left;
   font-size: 30px;
@@ -1094,6 +978,7 @@ body
   font-size: 18px;
 }
 
+/*Contact Page*/
 .contact-form
 {
   width: 85%;
@@ -1127,7 +1012,7 @@ body
   margin: 8px 0;
   padding: 12px 18px;
   border-radius: 8px;
-  
+
 }
 
 .text label
@@ -1162,7 +1047,12 @@ body
   width: 100%;
 }
 
-
-
 .btn:hover, button:hover {
   background: gray;
+}
+
+#mapArea
+{
+  margin-left: 750px;
+  margin-top: -514px;
+}
