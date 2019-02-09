@@ -17,6 +17,12 @@ h1
   font-weight: 800;
   letter-spacing: 2px;
 }
+h4
+{
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
 
 body
 {
@@ -211,8 +217,6 @@ body
   color: #fff;
   transition: 0.25s;
 }
-
-
 #whoWeAreBut:hover
 {
   height: 60px;
@@ -220,14 +224,19 @@ body
   font-size: 40px;
   letter-spacing: 2px;
 }
+#whoWeAreBut a
+{
+  text-decoration: none;
+  color: #fff;
+}
+
 
 
 /*Section #3*/
 #ourImpact
 {
-  height: 400px;
+  height: 450px;
   background-color: #6e8b6e;
-  opacity: ;
   display: flex;
   justify-content: center;
   justify-content: space-between;
@@ -238,14 +247,14 @@ body
   border-left: 2px solid black;
   height: 250px;
   opacity: 0.08;
-  margin-top: 70px;
+  margin-top: 100px;
 }
 .line2
 {
   border-left: 2px solid black;
   height: 250px;
   opacity: 0.08;
-  margin-top: 70px;
+  margin-top: 100px;
 }
 .line3
 {
@@ -258,14 +267,20 @@ body
 /*Boxes*/
 #river_icon
 {
-  padding-bottom: 20px;
-  margin-top: -50px;
+  padding-bottom: 40px;
+  margin-top: -80px;
 }
-
 #fish_icon
 {
-  padding-bottom: 20px;
-  margin-top: -50px;
+  padding-bottom: 10px;
+  margin-top: -80px;
+}
+#hook_icon
+{
+  padding-bottom: 40px;
+  margin-top: -80px;
+  height: 70px;
+  width: 70px;
 }
 
 .Box1
@@ -279,9 +294,10 @@ body
 .Box1 h1
 {
   font-size: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 35px;
   color: #fff;
 }
+
 .Box1 p
 {
   font-size: 18px;
@@ -294,6 +310,7 @@ body
   height: 25px;
   width: 100px;
   border-radius: 10px;
+  font-size: 14px;
   font-family: 'Averia Serif Libre', cursive;
   color: #fff;
   background-color: #687864;
@@ -313,6 +330,12 @@ body
   padding-bottom: 20px;
   color: #fff;
 }
+.Box2 h4
+{
+  font-size: 30px;
+  padding-bottom: 0px;
+  color: #fff;
+}
 .Box2 p
 {
   font-size: 18px;
@@ -323,6 +346,7 @@ body
   height: 25px;
   width: 100px;
   border-radius: 10px;
+  font-size: 14px;
   font-family: 'Averia Serif Libre', cursive;
   color: #fff;
   background-color: #687864;
@@ -351,6 +375,7 @@ body
   height: 25px;
   width: 100px;
   border-radius: 10px;
+  font-size: 14px;
   font-family: 'Averia Serif Libre', cursive;
   color: #fff;
   background-color: #687864;
@@ -832,11 +857,26 @@ body
 {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 #traaProject
 {
   height: 200px;
   margin-top: 20px;
+}
+#traaProject p
+{
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+#projects h1
+{
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 #traaProjectsHeading h1
@@ -847,11 +887,42 @@ body
   margin-top: 100px;
 }
 
-#boxes
+.project1:hover
 {
-  display: flex;
-  flex-direction: row;
-  margin: 20px;
+  transform: scale(1.3);
+  opacity: 1;
+  filter: blur(0px);
+}
+.project2:hover
+{
+  transform: scale(1.3);
+  opacity: 1;
+  filter: blur(0px);
+}
+.project3:hover
+{
+  transform: scale(1.3);
+  opacity: 1;
+  filter: blur(0px);
+}
+
+.project1
+{
+  width: 350px;
+  transition: 0.5s;
+  position: relative;
+}
+.project2
+{
+  width: 350px;
+  transition: 0.5s;
+  position: relative;
+}
+.project3
+{
+  width: 350px;
+  transition: 0.5s;
+  position: relative;
 }
 
 #box1
@@ -859,7 +930,7 @@ body
   height: 300px;
   width: 350px;
   background-color: grey ;
-  margin-left: 30px;
+  margin-bottom: 20px;
 }
 
 #box2
@@ -867,7 +938,7 @@ body
   height: 300px;
   width: 350px;
   background-color: grey ;
-  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 #box3
@@ -875,7 +946,7 @@ body
   height: 300px;
   width: 350px;
   background-color: grey ;
-  margin-right: 30px;
+  margin-bottom: 20px;
 }
 
 /*Links Page*/
@@ -904,7 +975,6 @@ body
  text-align: left;
  margin: 10px;
  font-size: 18px;
-
 }
 
 #content2 h3
@@ -984,10 +1054,8 @@ body
   width: 85%;
   max-width: 600px;
   background: #f1f1f1;
- /* position: absolute;*/
   top: 50%;
   left: 50%;
-  /*transform: translate(-50%,-50%);*/
   padding: 30px 40px;
   box-sizing: border-box;
   border-radius: 8px;
@@ -1045,6 +1113,7 @@ body
   cursor: pointer;
   margin-top: 8px;
   width: 100%;
+  border-radius: 10px;
 }
 
 .btn:hover, button:hover {
