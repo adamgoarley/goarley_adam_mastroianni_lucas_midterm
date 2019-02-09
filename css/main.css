@@ -217,8 +217,6 @@ body
   color: #fff;
   transition: 0.25s;
 }
-
-
 #whoWeAreBut:hover
 {
   height: 60px;
@@ -226,6 +224,12 @@ body
   font-size: 40px;
   letter-spacing: 2px;
 }
+#whoWeAreBut a
+{
+  text-decoration: none;
+  color: #fff;
+}
+
 
 
 /*Section #3*/
@@ -853,11 +857,25 @@ body
 {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 200px;
 }
 #traaProject
 {
   height: 200px;
   margin-top: 20px;
+}
+#traaProject p
+{
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+#projects h1
+{
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 #traaProjectsHeading h1
@@ -868,11 +886,42 @@ body
   margin-top: 100px;
 }
 
-#boxes
+.project1:hover
 {
-  display: flex;
-  flex-direction: row;
-  margin: 20px;
+  transform: scale(1.3);
+  opacity: 1;
+  filter: blur(0px);
+}
+.project2:hover
+{
+  transform: scale(1.3);
+  opacity: 1;
+  filter: blur(0px);
+}
+.project3:hover
+{
+  transform: scale(1.3);
+  opacity: 1;
+  filter: blur(0px);
+}
+
+.project1
+{
+  width: 350px;
+  transition: 0.5s;
+  position: relative;
+}
+.project2
+{
+  width: 350px;
+  transition: 0.5s;
+  position: relative;
+}
+.project3
+{
+  width: 350px;
+  transition: 0.5s;
+  position: relative;
 }
 
 #box1
@@ -880,7 +929,7 @@ body
   height: 300px;
   width: 350px;
   background-color: grey ;
-  margin-left: 30px;
+  margin-bottom: 20px;
 }
 
 #box2
@@ -888,7 +937,7 @@ body
   height: 300px;
   width: 350px;
   background-color: grey ;
-  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 #box3
@@ -896,7 +945,7 @@ body
   height: 300px;
   width: 350px;
   background-color: grey ;
-  margin-right: 30px;
+  margin-bottom: 20px;
 }
 
 /*Links Page*/
@@ -925,7 +974,6 @@ body
  text-align: left;
  margin: 10px;
  font-size: 18px;
-
 }
 
 #content2 h3
@@ -1005,10 +1053,8 @@ body
   width: 85%;
   max-width: 600px;
   background: #f1f1f1;
- /* position: absolute;*/
   top: 50%;
   left: 50%;
-  /*transform: translate(-50%,-50%);*/
   padding: 30px 40px;
   box-sizing: border-box;
   border-radius: 8px;
@@ -1066,6 +1112,7 @@ body
   cursor: pointer;
   margin-top: 8px;
   width: 100%;
+  border-radius: 10px;
 }
 
 .btn:hover, button:hover {
