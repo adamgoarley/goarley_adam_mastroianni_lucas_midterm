@@ -894,19 +894,16 @@ body
 {
   transform: scale(1.3);
   opacity: 1;
-  filter: blur(0px);
 }
 .project2:hover
 {
   transform: scale(1.3);
   opacity: 1;
-  filter: blur(0px);
 }
 .project3:hover
 {
   transform: scale(1.3);
   opacity: 1;
-  filter: blur(0px);
 }
 
 .project1
