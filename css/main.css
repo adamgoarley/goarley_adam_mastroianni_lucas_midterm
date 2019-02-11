@@ -17,6 +17,12 @@ h1
   font-weight: 800;
   letter-spacing: 2px;
 }
+h4
+{
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
 
 body
 {
@@ -211,8 +217,6 @@ body
   color: #fff;
   transition: 0.25s;
 }
-
-
 #whoWeAreBut:hover
 {
   height: 60px;
@@ -220,14 +224,25 @@ body
   font-size: 40px;
   letter-spacing: 2px;
 }
+#whoWeAreBut a
+{
+  text-decoration: none;
+  color: #fff;
+}
+
 
 
 /*Section #3*/
 #ourImpact
 {
+<<<<<<< HEAD
   height: 400px;
   background-color: #6e8b6e;
   opacity: ;
+=======
+  height: 450px;
+  background-color: #6e8b6e;
+>>>>>>> 81a353e50e2b31866295a71dba5a6115eebf97b6
   display: flex;
   justify-content: center;
   justify-content: space-between;
@@ -238,14 +253,14 @@ body
   border-left: 2px solid black;
   height: 250px;
   opacity: 0.08;
-  margin-top: 70px;
+  margin-top: 100px;
 }
 .line2
 {
   border-left: 2px solid black;
   height: 250px;
   opacity: 0.08;
-  margin-top: 70px;
+  margin-top: 100px;
 }
 .line3
 {
@@ -258,14 +273,20 @@ body
 /*Boxes*/
 #river_icon
 {
-  padding-bottom: 20px;
-  margin-top: -50px;
+  padding-bottom: 40px;
+  margin-top: -80px;
 }
-
 #fish_icon
 {
-  padding-bottom: 20px;
-  margin-top: -50px;
+  padding-bottom: 10px;
+  margin-top: -80px;
+}
+#hook_icon
+{
+  padding-bottom: 40px;
+  margin-top: -80px;
+  height: 70px;
+  width: 70px;
 }
 
 .Box1
@@ -279,9 +300,10 @@ body
 .Box1 h1
 {
   font-size: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 35px;
   color: #fff;
 }
+
 .Box1 p
 {
   font-size: 18px;
@@ -294,6 +316,10 @@ body
   height: 25px;
   width: 100px;
   border-radius: 10px;
+<<<<<<< HEAD
+=======
+  font-size: 14px;
+>>>>>>> 81a353e50e2b31866295a71dba5a6115eebf97b6
   font-family: 'Averia Serif Libre', cursive;
   color: #fff;
   background-color: #687864;
@@ -313,6 +339,12 @@ body
   padding-bottom: 20px;
   color: #fff;
 }
+.Box2 h4
+{
+  font-size: 30px;
+  padding-bottom: 0px;
+  color: #fff;
+}
 .Box2 p
 {
   font-size: 18px;
@@ -323,6 +355,7 @@ body
   height: 25px;
   width: 100px;
   border-radius: 10px;
+  font-size: 14px;
   font-family: 'Averia Serif Libre', cursive;
   color: #fff;
   background-color: #687864;
@@ -345,17 +378,24 @@ body
 {
   font-size: 18px;
   color: #fff;
+  margin-top: 10px;
 }
 .Box3 button
 {
   height: 25px;
   width: 100px;
   border-radius: 10px;
+  font-size: 14px;
   font-family: 'Averia Serif Libre', cursive;
   color: #fff;
   background-color: #687864;
   opacity: 0.95;
   margin-top: 40px;
+}
+
+#buttonOurImpact a
+{
+  color: #fff;
 }
 
 #footerMain
@@ -488,7 +528,8 @@ body
 #aboutUsInfo
 {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-around;
   height: 300px;
 }
 
@@ -509,22 +550,23 @@ body
   font-family: 'Lato', sans-serif;
   font-weight: 800;
   font-size: 35px;
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
   float: left;
   padding-left: 20px;
-  padding-bottom: 20px;
-  color: #31708E;
+  color: #53652b;
+  margin-right: 20px;
 }
 
 #traaInfo
 {
   font-family: 'Averia Serif Libre', cursive;
   font-size: 17px;
-  background-color: #5085A5;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  background-color: #8fb542;
+  height: 250px;
+  width: 1300px;
 }
-#traaInfo ul
+#listInfo
 {
   padding-top: 20px;
 }
@@ -534,7 +576,46 @@ body
   margin-top: 10px;
   margin-bottom: 10px;
   color: white;
+  text-align: left;
 }
+
+#charts
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+#chart1
+{
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+}
+
+#chart2
+{
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+}
+
+#chart3
+{
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+}
+
+
+
+
+
+
+
+
+
 
 /*EVENTS PAGE*/
 /*TIME LINE*/
@@ -555,7 +636,7 @@ body
 .lineTimeLine
 {
   border-left: 3px solid black;
-  height: 1200px;
+  height: 1800px;
   opacity: 1;
   margin-left: 650px;
 }
@@ -629,20 +710,20 @@ body
 /*Event 1*/
 #event1a
 {
-  margin-top: -1100px;
+  margin-top: -1650px;
   display: flex;
   width: 650px;
   /*background-color: gray;
   opacity: 0.5;*/
 }
 
-#ima geEvent1a
+#imageEvent1a
 {
   width: 300px;
   height: 150px;
-  background-color: gray;
-  margin-top: -150px;
-  margin-left: 90px;
+  background-color: blue;
+  margin-top: 70px;
+  margin-left: 225px;
 }
 
 #textEvent1a h2
@@ -673,9 +754,8 @@ body
   justify-content: flex-end;
   margin-left: 150px;
   margin-right: 40px;
-  margin-bottom: -110px;
+  margin-bottom: -90px;
 }
-
 
 /*Event 2*/
 
@@ -691,11 +771,15 @@ body
   opacity: 0.5;*/
 }
 
-#im ageEvent2a
+#imageEvent2a
 {
-  width: 50px;
-  height: 50px;
+  width: 300px;
+  height: 150px;
   background-color: blue;
+  margin-top: 20px;
+  margin-left: 800px;
+  border-radius: 15px 50px;
+
 }
 
 #textEvent2a h2
@@ -739,13 +823,13 @@ body
   margin-top: 60px;
 }
 
-#ima geEvent3a
+#imageEvent3a
 {
   width: 300px;
   height: 150px;
-  background-color: gray;
-  margin-top: -150px;
-  margin-left: 90px;
+  background-color: blue;
+  margin-top: 20px;
+  margin-left: 225px;
 }
 
 #textEvent3a h2
@@ -790,12 +874,15 @@ body
   opacity: 0.5;*/
 }
 
-#image Event4a
+#imageEvent4a
 {
-  width: 100%;
-  height: 100%;
+  width: 300px;
+  height: 150px;
   background-color: blue;
-  margi n-left: 730px;
+  margin-top: -200px;
+  margin-left: 750px;
+  margin-bottom: 200px;
+
 }
 
 #textEvent4a h2
@@ -832,6 +919,26 @@ body
 {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+#traaProject
+{
+  height: 200px;
+  margin-top: 20px;
+}
+#traaProject p
+{
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+#projects h1
+{
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 #traaProject
 {
@@ -847,11 +954,48 @@ body
   margin-top: 100px;
 }
 
-#boxes
+#traaProjectsHeading h1
 {
-  display: flex;
-  flex-direction: row;
-  margin: 20px;
+  font-size: 100px;
+  padding-bottom: 10px;
+  color: black;
+  margin-top: 100px;
+}
+
+.project1:hover
+{
+  transform: scale(1.3);
+  opacity: 1;
+}
+.project2:hover
+{
+  transform: scale(1.3);
+  opacity: 1;
+}
+.project3:hover
+{
+  transform: scale(1.3);
+  opacity: 1;
+}
+
+.project1
+{
+  width: 350px;
+  transition: 0.5s;
+  position: relative;
+}
+.project2
+{
+  width: 350px;
+  transition: 0.5s;
+  position: relative;
+}
+.project3
+{
+  width: 350px;
+  transition: 0.5s;
+  position: relative;
+
 }
 
 #box1
@@ -859,7 +1003,7 @@ body
   height: 300px;
   width: 350px;
   background-color: grey ;
-  margin-left: 30px;
+  margin-bottom: 20px;
 }
 
 #box2
@@ -867,7 +1011,8 @@ body
   height: 300px;
   width: 350px;
   background-color: grey ;
-  margin: 0 auto;
+  margin-bottom: 20px;
+
 }
 
 #box3
@@ -875,28 +1020,44 @@ body
   height: 300px;
   width: 350px;
   background-color: grey ;
-  margin-right: 30px;
+  margin-bottom: 20px;
 }
 
 /*Links Page*/
 #link
 {
-  color:black;
+  color: #53652b;
 }
-#links
+#linksHeading
 {
   font-size: 100px;
   margin-top: 100px;
   font-family: 'Lato', sans-serif;
-  color:  #5085A5;
+  color: black;
 }
+
+#links a
+
+{
+  color: black;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+#links a:hover
+{
+  font-size: 20px;
+  opacity: 1;
+
+}
+
 
 #content1 h3
 {
   text-align: left;
   font-size: 30px;
   font-family: 'Averia Serif Libre', cursive;
-  color: #31708E;
+  color: #53652b;
 }
 
 #content1 p
@@ -904,7 +1065,6 @@ body
  text-align: left;
  margin: 10px;
  font-size: 18px;
-
 }
 
 #content2 h3
@@ -913,7 +1073,7 @@ body
   font-size: 30px;
   margin-top: -170px;
   font-family: 'Averia Serif Libre', cursive;
-  color: #31708E;
+  color: #53652b;
 }
 
 #content2 p
@@ -928,7 +1088,7 @@ body
   font-size: 30px;
   margin-bottom: 100px;
   font-family: 'Averia Serif Libre', cursive;
-  color: #31708E;
+  color: #53652b;
 }
 
 #content3 p
@@ -948,7 +1108,7 @@ body
   text-align: left;
   font-size: 30px;
   font-family: 'Averia Serif Libre', cursive;
-  color: #31708E;
+  color: #53652b;
 }
 
 #content4 p
@@ -960,21 +1120,7 @@ body
 
 #content5
 {
-  margin-top: -363px;
-}
-
-
-
-.images
-{
-  margin-right: 475px;
-  padding: 30px;
-}
-
-.roundShadow
-{
-  border-radius: 7px;
-  box-shadow: 0px 0px 5px rgba(50,50,50,0.4);
+  margin-top: -262px;
 }
 
 
@@ -983,7 +1129,7 @@ body
   text-align: right;
   font-size: 30px;
   font-family: 'Averia Serif Libre', cursive;
-  color: #31708E;
+  color: #53652b;
 }
 
 #content5 p
@@ -994,15 +1140,42 @@ body
 }
 
 /*Contact Page*/
+#heroContact
+{
+  height: 400px;
+  width: 1300px;
+  margin-top: 250px;
+}
+
+#contactText
+{
+  margin-top: 100px;
+}
+
+#contactText h2
+{
+  font-size: 35px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  color: #53652b;
+  margin-bottom: 15px;
+}
+
+#contactText p
+{
+  font-size: 18px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
 .contact-form
 {
   width: 85%;
   max-width: 600px;
   background: #f1f1f1;
- /* position: absolute;*/
   top: 50%;
   left: 50%;
-  /*transform: translate(-50%,-50%);*/
   padding: 30px 40px;
   box-sizing: border-box;
   border-radius: 8px;
@@ -1015,6 +1188,7 @@ body
 .contact-form h1
 {
   margin-top: 0;
+  margin-bottom: 20px;
   font-weight: 200px;
   font-family: "Lato";
   font-size: 40px;
@@ -1060,6 +1234,7 @@ body
   cursor: pointer;
   margin-top: 8px;
   width: 100%;
+  border-radius: 10px;
 }
 
 .btn:hover, button:hover {
@@ -1071,4 +1246,3 @@ body
   margin-left: 750px;
   margin-top: -514px;
 }
-
