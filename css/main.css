@@ -369,6 +369,7 @@ body
 {
   font-size: 18px;
   color: #fff;
+  margin-top: 10px;
 }
 .Box3 button
 {
@@ -381,6 +382,11 @@ body
   background-color: #687864;
   opacity: 0.95;
   margin-top: 40px;
+}
+
+#buttonOurImpact a
+{
+  color: #fff;
 }
 
 #footerMain
@@ -564,6 +570,43 @@ body
   text-align: left;
 }
 
+#charts
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+#chart1
+{
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+}
+
+#chart2
+{
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+}
+
+#chart3
+{
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+}
+
+
+
+
+
+
+
+
+
 /*EVENTS PAGE*/
 /*TIME LINE*/
 #heroTextEventsa
@@ -583,7 +626,7 @@ body
 .lineTimeLine
 {
   border-left: 3px solid black;
-  height: 1200px;
+  height: 1800px;
   opacity: 1;
   margin-left: 650px;
 }
@@ -657,20 +700,20 @@ body
 /*Event 1*/
 #event1a
 {
-  margin-top: -1100px;
+  margin-top: -1650px;
   display: flex;
   width: 650px;
   /*background-color: gray;
   opacity: 0.5;*/
 }
 
-#ima geEvent1a
+#imageEvent1a
 {
   width: 300px;
   height: 150px;
-  background-color: gray;
-  margin-top: -150px;
-  margin-left: 90px;
+  background-color: blue;
+  margin-top: 70px;
+  margin-left: 225px;
 }
 
 #textEvent1a h2
@@ -701,9 +744,8 @@ body
   justify-content: flex-end;
   margin-left: 150px;
   margin-right: 40px;
-  margin-bottom: -110px;
+  margin-bottom: -90px;
 }
-
 
 /*Event 2*/
 
@@ -719,11 +761,14 @@ body
   opacity: 0.5;*/
 }
 
-#im ageEvent2a
+#imageEvent2a
 {
-  width: 50px;
-  height: 50px;
+  width: 300px;
+  height: 150px;
   background-color: blue;
+  margin-top: 20px;
+  margin-left: 800px;
+  border-radius: 15px 50px;
 }
 
 #textEvent2a h2
@@ -767,13 +812,13 @@ body
   margin-top: 60px;
 }
 
-#ima geEvent3a
+#imageEvent3a
 {
   width: 300px;
   height: 150px;
-  background-color: gray;
-  margin-top: -150px;
-  margin-left: 90px;
+  background-color: blue;
+  margin-top: 20px;
+  margin-left: 225px;
 }
 
 #textEvent3a h2
@@ -818,12 +863,14 @@ body
   opacity: 0.5;*/
 }
 
-#image Event4a
+#imageEvent4a
 {
-  width: 100%;
-  height: 100%;
+  width: 300px;
+  height: 150px;
   background-color: blue;
-  margi n-left: 730px;
+  margin-top: -200px;
+  margin-left: 750px;
+  margin-bottom: 200px;
 }
 
 #textEvent4a h2
