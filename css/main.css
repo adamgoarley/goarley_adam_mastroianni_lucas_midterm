@@ -235,14 +235,8 @@ body
 /*Section #3*/
 #ourImpact
 {
-<<<<<<< HEAD
-  height: 400px;
-  background-color: #6e8b6e;
-  opacity: ;
-=======
   height: 450px;
   background-color: #6e8b6e;
->>>>>>> 81a353e50e2b31866295a71dba5a6115eebf97b6
   display: flex;
   justify-content: center;
   justify-content: space-between;
@@ -316,10 +310,7 @@ body
   height: 25px;
   width: 100px;
   border-radius: 10px;
-<<<<<<< HEAD
-=======
   font-size: 14px;
->>>>>>> 81a353e50e2b31866295a71dba5a6115eebf97b6
   font-family: 'Averia Serif Libre', cursive;
   color: #fff;
   background-color: #687864;
@@ -616,7 +607,6 @@ body
 
 
 
-
 /*EVENTS PAGE*/
 /*TIME LINE*/
 #heroTextEventsa
@@ -779,7 +769,6 @@ body
   margin-top: 20px;
   margin-left: 800px;
   border-radius: 15px 50px;
-
 }
 
 #textEvent2a h2
@@ -882,7 +871,6 @@ body
   margin-top: -200px;
   margin-left: 750px;
   margin-bottom: 200px;
-
 }
 
 #textEvent4a h2
@@ -940,19 +928,6 @@ body
   font-size: 20px;
   margin-bottom: 10px;
 }
-#traaProject
-{
-  height: 200px;
-  margin-top: 20px;
-}
-
-#traaProjectsHeading h1
-{
-  font-size: 100px;
-  padding-bottom: 10px;
-  color: black;
-  margin-top: 100px;
-}
 
 #traaProjectsHeading h1
 {
@@ -995,7 +970,6 @@ body
   width: 350px;
   transition: 0.5s;
   position: relative;
-
 }
 
 #box1
@@ -1012,7 +986,6 @@ body
   width: 350px;
   background-color: grey ;
   margin-bottom: 20px;
-
 }
 
 #box3
@@ -1037,7 +1010,6 @@ body
 }
 
 #links a
-
 {
   color: black;
   font-size: 18px;
@@ -1048,7 +1020,6 @@ body
 {
   font-size: 20px;
   opacity: 1;
-
 }
 
 
@@ -1066,6 +1037,7 @@ body
  margin: 10px;
  font-size: 18px;
 }
+
 
 #content2 h3
 {
@@ -1098,6 +1070,19 @@ body
   font-size: 18px;
 }
 
+
+.images
+{
+  margin-right: 475px;
+  padding: 30px;
+}
+
+.roundShadow
+{
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px rgba(50,50,50,0.4);
+}
+
 #content4
 {
   margin: 150px;
@@ -1114,15 +1099,14 @@ body
 #content4 p
 {
   text-align: left;
-  margin-left: 40px;
+  margin: 10px;
   font-size: 18px;
 }
 
 #content5
 {
-  margin-top: -262px;
+  margin-top: -250px;
 }
-
 
 #content5 h3
 {
@@ -1132,11 +1116,15 @@ body
   color: #53652b;
 }
 
+#content5
+{
+  margin-left:200px;
+}
 #content5 p
 {
-  margin-left: 1000px;
-  padding: 10px;
-  font-size: 18px;
+  text-align: right;
+ margin: 10px;
+ font-size: 18px;
 }
 
 /*Contact Page*/
@@ -1167,7 +1155,6 @@ body
   margin-left: 100px;
   margin-right: 100px;
 }
-
 
 .contact-form
 {
