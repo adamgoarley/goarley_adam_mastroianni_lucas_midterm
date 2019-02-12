@@ -573,38 +573,78 @@ body
 #charts
 {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
   margin-top: 40px;
 }
-
-#chart1
+#charts h2
 {
-  width: 400px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  color: #53652b;
+}
+
+#chart1 img
+{
+  width: 1000px;
   height: 400px;
   background-color: blue;
+  margin-top: 40px;
+  float: left;
+}
+#chart1 h2
+{
+  margin-top: 180px;
+}
+#chart1 p
+{
+  margin-top: 10px;
 }
 
 #chart2
 {
-  width: 400px;
+  width: 500px;
+  height: 400px;
+  margin-top: 40px;
+}
+#chart2 img
+{
+  width: 500px;
   height: 400px;
   background-color: blue;
+  margin-top: 40px;
+  margin-left: 700px;
+}
+.chart2Text
+{
+  margin-top: -200px;
+  margin-bottom: 200px;
+  margin-right: 450px;
 }
 
 #chart3
 {
-  width: 400px;
+  width: 1000px;
   height: 400px;
-  background-color: blue;
+  margin-top: 40px;
+  margin-bottom: 100px;
 }
-
-
-
-
-
-
-
+#chart3 img
+{
+  float: left;
+}
+#chart3 h2
+{
+  margin-top: 80px;
+}
+#chart3 p
+{
+  margin-top: 10px;
+}
+#chart3 h2 p
+{
+  margin-left: 200px;
+}
 
 
 /*EVENTS PAGE*/
